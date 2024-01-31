@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Rendez-vous</title>
+</head>
+<body>
+    <h1>Votre rendez-vous personnalisé :</h1>
+    <form action="" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" autofocus>
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom" id="prenom">
+        <label for="email">email :</label>
+        <input type="email" name="email" id="email">
+        <label for="ville">Ville :</label>
+        <select name="ville" id="ville">-- Choississez votre ville --
+        <option value="paris">Paris</option>
+        <option value="orleans">Orléans</option>
+        <option value="chartes">Chartes</option>
+        </select>
+        <label for="service">Services :</label>
+        <select name="service" id="service">
+            <option value="electricite">Électricité</option>
+            <option value="plomberie">Plomberie</option>
+            <option value="maconnerie">Maçonnerie</option>
+            <option value="montage">Montage - Service</option>
+        </select>
+        <textarea name="desciption" id="desciption" cols="30" rows="10" placeholder="De quoi avez vous besoin ?"></textarea>
+        <input type="submit" value="ENVOYER">
+
+    </form>
+</body>
+</html>
