@@ -94,12 +94,15 @@ button:hover{
 footer{
     flex-shrink: 0;
     border-top: 1px dashed #000;
-    background: #201f30;
-    color: #4b4a4a;
+    /* background: #201f30; */
+    background: #443b3b;
+    color: #000000;
     margin-top: 50px;
     /* height: 400px; */
 }
-
+footer h3{
+    font-weight: bolder;
+}
 img{
     width: 20px;
 }
@@ -140,12 +143,12 @@ img{
     padding: 2px 0;
 }
 .liste-services ol, ul{
-    padding-left: 0rem;
+    padding-left: 0rem; /* Enelever le padding de base de boostrap qui décaler les listes des titres */
 }
 
 .liste-services a{
     text-decoration: none;
-    color: #333;
+    color: #000000;
 }
 
 .liste-services a:hover{
@@ -166,7 +169,7 @@ img{
 
 .liste-medias a{
     text-decoration: none;
-    color: #333;
+    color: #000000;
     display: flex;
     align-items: center;
     font-size: 25px;
