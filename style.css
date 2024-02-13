@@ -45,18 +45,21 @@
     background: radial-gradient(circle, rgba(178,255,180,1) 0%, rgba(220,223,53,1) 50%, rgba(232,251,255,1) 100%); */
 }
 .electricien:hover{
-    background-color: #ffe699;
+    background: linear-gradient(to bottom, #007FFF, #FFFF00);
     transition: 3s;
 }
 .electricien__realisation{
     display: flex;
     justify-content: end;
-    margin: 40px;
+    /* margin: 40px; */
 }
 
 
 /* SECTION PLOMBIER */
 /* Rendez-vous */
+.plombier:hover{
+    background: linear-gradient(to bottom, #87CEEB, #708090);
+}
 button{
     display: flex;
     justify-content: center;
@@ -81,6 +84,24 @@ button:hover{
     transition: 1s;
 }
 
+/* Section RDV */
+.rdv{
+    border: 1px solid black; 
+    height: 500px;
+}
+.rdv h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.rdv__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 400px;
+}
+
 
 
 
@@ -93,11 +114,11 @@ button:hover{
 /* Footer */
 footer{
     flex-shrink: 0;
-    border-top: 1px dashed #000;
+    /* border-top: 1px dashed #000; */
     /* background: #201f30; */
     background: #443b3b;
     color: #000000;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* height: 400px; */
 }
 footer h3{
