@@ -86,9 +86,17 @@ button:hover{
 
 /* Section RDV */
 .rdv{
-    border: 1px solid black; 
-    height: 500px;
+    background-image: url('images/beach.jpg');
+    height: 100vh;
+    background-position: center; /* centrer l'image */
+    background-size: cover; /* couvre l'integralité de la page */
+    display: flex; /*rend les items flexibles */
+    text-align: center;
+    justify-content: center; /*place le texte au milieu de l'élément */
+    flex-direction: column;
+    align-items: center; /* place le texte au milieu de l'axe des x */
 }
+
 .rdv h1{
     text-align: center;
     font-size: 50px;
@@ -98,7 +106,6 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     height: 400px;
 }
 
